@@ -1,0 +1,65 @@
+### Weather Image API - Documentation & Examples
+
+# ------------------------------------------------------------
+# 1. Start a new image job
+# ------------------------------------------------------------
+POST http://localhost:7071/api/images/start
+Content-Type: application/json
+
+{
+  "query": "clouds"
+}
+
+### 
+# Response example (JSON):
+# {
+#   "jobId": "20251002-170240-53c4c9a2-b462-4cb3-9927-a0a8d09c4c2d",
+#   "status": "queued"
+# }
+# ------------------------------------------------------------
+
+
+# ------------------------------------------------------------
+# 2. Check the status of a job
+# ------------------------------------------------------------
+GET http://localhost:7071/api/images/status/20251002-170240-53c4c9a2-b462-4cb3-9927-a0a8d09c4c2d
+
+###
+# Response example (JSON):
+# {
+#   "jobId": "20251002-170240-53c4c9a2-b462-4cb3-9927-a0a8d09c4c2d",
+#   "status": "processing",
+#   "createdAt": "2025-10-02T16:47:27Z",
+#   "completedAt": null
+# }
+# ------------------------------------------------------------
+
+
+# ------------------------------------------------------------
+# 3. Get the results of a completed job
+# ------------------------------------------------------------
+GET http://localhost:7071/api/images/results/20251002-170240-53c4c9a2-b462-4cb3-9927-a0a8d09c4c2d
+
+###
+# Response example (JSON):
+# {
+#   "jobId": "20251002-170240-53c4c9a2-b462-4cb3-9927-a0a8d09c4c2d",
+#   "status": "completed",
+#   "results": [
+#     {
+#       "stationId": 1,
+#       "stationName": "Schiphol",
+#       "temperature": 15.5,
+#       "humidity": 80,
+#       "imageUrl": "http://127.0.0.1:10000/devstoreaccount1/images/20251002-165631-sch1.png"
+#     },
+#     {
+#       "stationId": 2,
+#       "stationName": "Rotterdam",
+#       "temperature": 16.2,
+#       "humidity": 0,
+#       "imageUrl": "http://127.0.0.1:10000/devstoreaccount1/images/20251002-165631-rot2.png"
+#     }
+#   ]
+# }
+# ------------------------------------------------------------

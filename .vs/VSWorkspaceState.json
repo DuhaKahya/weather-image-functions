@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\docs",
+    "\\infra",
+    "\\src",
+    "\\src\\WeatherImageFunctions",
+    "\\src\\WeatherImageFunctions\\Models"
+  ],
+  "SelectedNode": "\\infra\\main.bicep",
+  "PreviewInSolutionExplorer": false
+}
