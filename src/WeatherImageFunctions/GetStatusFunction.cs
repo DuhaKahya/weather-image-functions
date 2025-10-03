@@ -19,7 +19,7 @@ namespace WeatherImageFunctions
 
         [Function("GetStatusFunction")]
         public async Task<HttpResponseData> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "images/status/{jobId}")] HttpRequestData req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "images/status/{jobId}")] HttpRequestData req,
             string jobId)
         {
             _logger.LogInformation($"Checking status for job: {jobId}");

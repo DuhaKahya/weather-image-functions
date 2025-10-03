@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\main.bicep||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\main.bicep||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\docs\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetResultsFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\GetResultsFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetStatusFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\GetStatusFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\Models\\ImageJobMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\Models\\ImageJobMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\HttpStartFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\HttpStartFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\BlobHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\BlobHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\ProcessImageFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\ProcessImageFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\main.bicep||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\main.bicep||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetResultsFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\GetResultsFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\Deploy.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\Deploy.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\docs\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\Models\\ImageJobMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\Models\\ImageJobMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\StartQueueFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\Models\\StartRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\HttpStartFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\HttpStartFunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WeatherImageFunctions\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -71,38 +83,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.bicep",
-              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\main.bicep",
-              "RelativeDocumentMoniker": "infra\\main.bicep",
-              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\main.bicep",
-              "RelativeToolTip": "infra\\main.bicep",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAQwF8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-02T17:23:13.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "api.http",
-              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\docs\\api.http",
-              "RelativeDocumentMoniker": "docs\\api.http",
-              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\docs\\api.http",
-              "RelativeToolTip": "docs\\api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-10-02T17:18:59.556Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-03T10:00:42.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "HttpStartFunction.cs",
+              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\HttpStartFunction.cs",
+              "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\HttpStartFunction.cs",
+              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\HttpStartFunction.cs",
+              "RelativeToolTip": "src\\WeatherImageFunctions\\HttpStartFunction.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:08:07.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GetStatusFunction.cs",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetStatusFunction.cs",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\GetStatusFunction.cs",
               "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetStatusFunction.cs",
               "RelativeToolTip": "src\\WeatherImageFunctions\\GetStatusFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T15:23:51.812Z",
               "EditorCaption": ""
@@ -110,19 +122,96 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GetResultsFunction.cs",
+              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetResultsFunction.cs",
+              "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\GetResultsFunction.cs",
+              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetResultsFunction.cs",
+              "RelativeToolTip": "src\\WeatherImageFunctions\\GetResultsFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:06:06.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "local.settings.json",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\local.settings.json",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\local.settings.json",
               "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\local.settings.json",
               "RelativeToolTip": "src\\WeatherImageFunctions\\local.settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-02T15:06:52.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "BlobHelper.cs",
+              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\BlobHelper.cs",
+              "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\BlobHelper.cs",
+              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\BlobHelper.cs",
+              "RelativeToolTip": "src\\WeatherImageFunctions\\BlobHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T09:29:04.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProcessImageFunction.cs",
+              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\ProcessImageFunction.cs",
+              "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\ProcessImageFunction.cs",
+              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\ProcessImageFunction.cs",
+              "RelativeToolTip": "src\\WeatherImageFunctions\\ProcessImageFunction.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:39:44.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.bicep",
+              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\main.bicep",
+              "RelativeDocumentMoniker": "infra\\main.bicep",
+              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\main.bicep",
+              "RelativeToolTip": "infra\\main.bicep",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-02T17:23:13.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Deploy.ps1",
+              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\Deploy.ps1",
+              "RelativeDocumentMoniker": "infra\\Deploy.ps1",
+              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\infra\\Deploy.ps1",
+              "RelativeToolTip": "infra\\Deploy.ps1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-02T18:56:09.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "api.http",
+              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\docs\\api.http",
+              "RelativeDocumentMoniker": "docs\\api.http",
+              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\docs\\api.http",
+              "RelativeToolTip": "docs\\api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-02T17:18:59.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ImageJobMessage.cs",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\Models\\ImageJobMessage.cs",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\Models\\ImageJobMessage.cs",
@@ -130,25 +219,11 @@
               "RelativeToolTip": "src\\WeatherImageFunctions\\Models\\ImageJobMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:40:07.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T15:40:07.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProcessImageFunction.cs",
-              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\ProcessImageFunction.cs",
-              "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\ProcessImageFunction.cs",
-              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\ProcessImageFunction.cs",
-              "RelativeToolTip": "src\\WeatherImageFunctions\\ProcessImageFunction.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:39:44.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\Program.cs",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\Program.cs",
@@ -156,25 +231,11 @@
               "RelativeToolTip": "src\\WeatherImageFunctions\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:37:03.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T15:37:03.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetResultsFunction.cs",
-              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetResultsFunction.cs",
-              "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\GetResultsFunction.cs",
-              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\GetResultsFunction.cs",
-              "RelativeToolTip": "src\\WeatherImageFunctions\\GetResultsFunction.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwv0sAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T17:06:06.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "StartQueueFunction.cs",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\StartQueueFunction.cs",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\StartQueueFunction.cs",
@@ -182,12 +243,11 @@
               "RelativeToolTip": "src\\WeatherImageFunctions\\StartQueueFunction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:15:45.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T15:15:45.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "WeatherImageFunctions.csproj",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\WeatherImageFunctions.csproj",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\WeatherImageFunctions.csproj",
@@ -195,12 +255,11 @@
               "RelativeToolTip": "src\\WeatherImageFunctions\\WeatherImageFunctions.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-02T15:29:42.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T15:29:42.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "StartMessage.cs",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\Models\\StartMessage.cs",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\Models\\StartMessage.cs",
@@ -208,12 +267,11 @@
               "RelativeToolTip": "src\\WeatherImageFunctions\\Models\\StartMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:15:34.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T15:15:34.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "StartRequest.cs",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\Models\\StartRequest.cs",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\Models\\StartRequest.cs",
@@ -221,25 +279,11 @@
               "RelativeToolTip": "src\\WeatherImageFunctions\\Models\\StartRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:11:56.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T15:11:56.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HttpStartFunction.cs",
-              "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\HttpStartFunction.cs",
-              "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\HttpStartFunction.cs",
-              "ToolTip": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\HttpStartFunction.cs",
-              "RelativeToolTip": "src\\WeatherImageFunctions\\HttpStartFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:08:07.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "host.json",
               "DocumentMoniker": "C:\\Users\\duhak\\Documents\\GitHub\\weather-image-functions\\src\\WeatherImageFunctions\\host.json",
               "RelativeDocumentMoniker": "src\\WeatherImageFunctions\\host.json",
@@ -247,8 +291,7 @@
               "RelativeToolTip": "src\\WeatherImageFunctions\\host.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-02T15:02:06.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T15:02:06.287Z"
             }
           ]
         }

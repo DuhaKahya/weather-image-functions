@@ -26,7 +26,7 @@ namespace WeatherImageFunctions
 
         [Function("HttpStartFunction")]
         public async Task<HttpResponseData> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "images/start")] HttpRequestData req)
+            [HttpTrigger(AuthorizationLevel.Function, "post", Route = "images/start")] HttpRequestData req)
         {
             _logger.LogInformation("Start request received...");
 

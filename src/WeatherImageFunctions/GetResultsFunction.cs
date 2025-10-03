@@ -1,11 +1,9 @@
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Azure.Storage.Blobs;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
-using System.Net;
 
 namespace WeatherImageFunctions
 {
@@ -14,60 +12,44 @@ namespace WeatherImageFunctions
         private readonly ILogger _logger;
         private readonly BlobServiceClient _blobServiceClient;
 
-        public GetResultsFunction(ILoggerFactory loggerFactory)
+        public GetResultsFunction(ILoggerFactory loggerFactory, BlobServiceClient blobServiceClient)
         {
             _logger = loggerFactory.CreateLogger<GetResultsFunction>();
-
-            string storageConnectionString = Environment.GetEnvironmentVariable("AzureWebJobsStorage");
-            _blobServiceClient = new BlobServiceClient(storageConnectionString);
+            _blobServiceClient = blobServiceClient;
         }
 
         [Function("GetResultsFunction")]
         public async Task<HttpResponseData> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "images/results/{jobId}")] HttpRequestData req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "images/results/{jobId}")] HttpRequestData req,
             string jobId)
         {
-            _logger.LogInformation($"Fetching results for job: {jobId}");
+            _logger.LogInformation($"Fetching results for jobId: {jobId}");
 
             var containerClient = _blobServiceClient.GetBlobContainerClient("images");
+            var blobs = containerClient.GetBlobsAsync();
+
             var results = new List<object>();
 
-            await foreach (var blobItem in containerClient.GetBlobsAsync())
+            await foreach (var blob in blobs)
             {
-                if (blobItem.Name.Contains(jobId))
+                if (blob.Name.StartsWith(jobId))
                 {
-                    var blobClient = containerClient.GetBlobClient(blobItem.Name);
+                    var blobClient = containerClient.GetBlobClient(blob.Name);
+
+                    // Nieuwe helper met GenerateSasUri
+                    string sasUrl = BlobHelper.GenerateSasUrl(blobClient);
 
                     results.Add(new
                     {
-                        FileName = blobItem.Name,
-                        Url = blobClient.Uri.ToString(),
-                        blobItem.Properties.ContentType,
-                        blobItem.Properties.ContentLength
+                        blobName = blob.Name,
+                        url = sasUrl,
+                        metadata = blob.Metadata
                     });
                 }
             }
 
-            var response = req.CreateResponse(HttpStatusCode.OK);
-
-            if (results.Count == 0)
-            {
-                await response.WriteAsJsonAsync(new
-                {
-                    jobId,
-                    status = "running",
-                    message = "No results yet for this job"
-                });
-            }
-            else
-            {
-                await response.WriteAsJsonAsync(new
-                {
-                    jobId,
-                    status = "completed",
-                    results
-                });
-            }
+            var response = req.CreateResponse(System.Net.HttpStatusCode.OK);
+            await response.WriteAsJsonAsync(results);
 
             return response;
         }

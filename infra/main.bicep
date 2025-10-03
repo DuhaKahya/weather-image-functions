@@ -1,7 +1,7 @@
 ﻿// main.bicep
 
 @description('Location for all resources')
-param location string = 'northeurope'
+param location string = 'germanywestcentral'
 
 @description('Storage account name (moet uniek zijn, alleen lowercase)')
 var storageAccountName = 'weather${uniqueString(resourceGroup().id)}'
@@ -51,9 +51,15 @@ resource blobService 'Microsoft.Storage/storageAccounts/blobServices@2023-01-01'
 }
 
 resource imagesContainer 'Microsoft.Storage/storageAccounts/blobServices/containers@2023-01-01' = {
-  name: 'images'
-  parent: blobService
+  name: '${storageAccount.name}/default/images'
+  properties: {
+    publicAccess: 'None'
+  }
+  dependsOn: [
+    blobService
+  ]
 }
+
 
 //
 // Hosting plan (Consumption)

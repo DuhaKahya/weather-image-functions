@@ -97,7 +97,10 @@ namespace WeatherImageFunctions
                 };
                 await blobClient.SetMetadataAsync(metadata);
 
-                _logger.LogInformation($"Image saved to blob: {blobClient.Uri}");
+                // Stap 6: SAS-URL genereren
+                string sasUrl = BlobHelper.GenerateSasUrl(blobClient);
+
+                _logger.LogInformation($"Image saved. SAS URL: {sasUrl}");
             }
             catch (Exception ex)
             {
